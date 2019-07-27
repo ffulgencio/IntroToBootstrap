@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/bootstrap.css"> 
+    <link rel="stylesheet" href="./css/micss.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">iBootstrap</a>
+            <ul class="navbar-nav">
+                <li class="nav-item"> <a class="nav-link"  href="#">Inicio</a> </li>
+                <li  class="nav-item"><a class="nav-link" href="#">Nosotros</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contactos</a></li>
+            </ul>
+
+        </nav>
+        <div class="jumbotron"> 
+                <h1>Wellcome to Boostrap</h1>
+
+        </div>
+       <h2>Bootstrap Buttons</h2> 
+        <button class="btn btn-success"> Boton1</button>
+        <button class="btn btn-default"> Boton1</button>
+        <button class="btn btn-warning"> Boton1</button>
+        <button class="btn btn-danger"> Borrar</button>
+        <button class="btn btn-info"> Boton1</button>
+        <button class="btn btn-primary"> Boton1</button>
+        
+
+        <br />
+<br />
+<h2>Tablas en bootstrap</h2>
+       <table class="table table-striped">
+          
+           <thead>
+               <tr>
+                   <th>Codigo</th>
+                   <th>Nombre</th>
+                   <th>Apellido</th>
+                   <th>Telefono</th>
+                   <th></th>
+               </tr>
+           </thead>
+           <tbody>
+               <tr>
+                   <td>1</td>
+                   <td>Juan</td>
+                   <td>Perez</td>
+                   <td>809-555-0000</td>
+                   <td>
+                       <button class="btn btn-success">Editar </button>
+                       <button class="btn btn-info"> Detalle</button>
+                       <button class="btn btn-danger">Borrar</button>
+                   </td>
+               </tr>
+               <tr>
+                    <td>2</td>
+                    <td>Maria</td>
+                    <td>Gil</td>
+                    <td>809-476-6000</td>
+                    <td>
+                            <button class="btn btn-success">Editar </button>
+                            <button class="btn btn-info"> Detalle</button>
+                            <button class="btn btn-danger">Borrar</button>
+                        </td>
+                </tr>
+                <tr>
+                        <td>3</td>
+                        <td>Manuel</td>
+                        <td>Perdomo</td>
+                        <td>809-220-1212</td>
+                        <td>
+                                <button class="btn btn-success">Editar </button>
+                                <button class="btn btn-info"> Detalle</button>
+                                <button class="btn btn-danger">Borrar</button>
+                            </td>
+                    </tr>
+           </tbody>
+       </table>
+
+        <h2> Grid Design Boostrap</h2>
+        <div class="row">
+
+                <div class="col-md-4">
+                    <h3>Noticia 1</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt esse quo est possimus placeat saepe quasi beatae eligendi asperiores atque nihil officia rem ullam aperiam sint reprehenderit maxime, aspernatur eos!</p>
+                    <button class="btn btn-info">Ver mas </button>
+                </div>
+                <div class="col-md-4">
+                    <h3>Noticia 1</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt esse quo est possimus placeat saepe quasi beatae eligendi asperiores atque nihil officia rem ullam aperiam sint reprehenderit maxime, aspernatur eos!</p>
+                    <button class="btn btn-info">Ver mas </button>
+                </div>
+                <div class="col-md-4">
+                    <h3>Noticia 1</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt esse quo est possimus placeat saepe quasi beatae eligendi asperiores atque nihil officia rem ullam aperiam sint reprehenderit maxime, aspernatur eos!</p>
+                    <button class="btn btn-info">Ver mas </button>
+                </div> 
+            
+            </div>
+
+        <h2>Formularios bootstrap</h2>
+
+        <div class="card text-left">
+                <div class="card-header bg-warning">
+                        Registro de clientes
+                      </div>
+          <!-- <img class="card-img-top" src="./img/baner.gif" alt=""> -->
+          <div class="card-body">
+            <h4 class="card-title   ">Title</h4>
+            <form action="">
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        <label for="nombre">
+                            Nombre
+                        </label>
+                        <input type="text" name="nombre" class="form-control"/>
+                    </div>
+                    <div class="form-group col-md-6">
+                            <label for="apellido">
+                                Apellido
+                            </label>
+                            <input type="text" name="apellido" class="form-control"/>
+                        </div>
+                </div>
+                <div class="row">
+                        <div class="form-group col-md-9">
+                            <label for="email">
+                                Email
+                            </label>
+                            <input type="email" name="email" class="form-control"/>
+                        </div>
+                        <div class="form-group col-md-3">
+                                <label for="telefono">
+                                    Telefono
+                                </label>
+                                <input type="text" name="telefono" class="form-control"/>
+                            </div>
+                    </div>
+                    <div class="row">
+                            <div class="form-group col-md-3">
+                               <label for="sexo">
+                                   Sexo
+                               </label>
+                                <input type="radio" name="sexo" value ="F" />Femenino
+                                <input type="radio" name="sexo" value="M" />Masculino
+                            </div>
+                          
+                        </div class="row">  
+                            <button class="btn btn-success btn-lg btn-block">Registrar</button>
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                        <div>
+    
+                        </div>
+            </form>
+          </div>
+        </div> 
+        
+       
+
+    </div>
+
+
+    
+    <script src="./js/bootstrap.js"></script>
+</body>
+</html>
