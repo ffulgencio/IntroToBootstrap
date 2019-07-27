@@ -7,3 +7,14 @@
     .container{
         background-color: white;
     }
+
+    .jumbotron{
+        background-image: url("../img/baner.gif");
+        background-repeat: no-repeat;
+        
+    }
+
+    .imgNotice{
+        width: 340px;
+        height: 160px;
+    }
