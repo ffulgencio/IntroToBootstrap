@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.css"> 
+
+</head>
+<body>
+
+    <div>
+        <label for="editor">Escriba cantidad en dolares:</label>
+        <br />
+        <input type="text" name="editor" id="editor" class="form-control" /><br/>
+        
+        <button on class="btn btn-primary btn-lg" id="btnConvertir">Convertir</button>
+        <h1 id="resultado"></h1>
+
+    </div>
+    <script>
+        var editor = document.getElementById("editor");
+        var resultado = document.getElementById("resultado");
+      var boton = document.getElementById("btnConvertir");
+      boton.addEventListener("click",function(){
+          var dolares = parseFloat(editor.value);
+          var pesos = dolares * 51;
+          resultado.innerHTML = pesos.toString();
+      });
+
+      boton.addEventListener("mouseover", function(){
+        boton.className ="btn-success";
+      });
+    </script>
+    <script src="./js/bootstrap.js"></script>
+</body>
+</html>
